@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_movies_detail">MoviesDetail</string>
+
+    <!-- Account type (for sync-adapter authenticator) -->
+    <!-- SyncAdapter related -->
+    <string name="sync_account_type">movieapp.example.lenovo.com</string>
+    <string name="content_authority">com.lenovo.example.movieapp</string>
+    <!-- title_activity_settings-->
+    <string name="title_activity_settings">Setting</string>
+    <string name="pref_sort_label">Sort By</string>
+    <string name="pref_sort_key" translatable="false">sort_by</string>
+
+    <string name="pref_sort_default" translatable="false">popularity.desc</string>
+
+    <string-array name="sort_type_name">
+        <item>Most Popular</item>
+        <item>Highest Rated</item>
+        <item>Favorite Movie</item>
+    </string-array>
+
+    <string-array name="sort_type_value">
+        <item>popularity.desc</item>
+        <item>vote_average.desc</item>
+        <item>favorite_movie.desc</item>
+    </string-array>
+
+
+
+</resources>
